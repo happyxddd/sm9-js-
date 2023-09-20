@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.game{
+    background-color: blueviolet;
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 350px;
+    left: 890px;
+}
+.link{
+    color: rgb(155, 60, 245);
+    transition: all 0.3s linear;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link:hover{
+    color: rgb(110, 42, 173);
+}
